@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: AWS Cloudformation template to create a dynamo table
+Resources:
+  ForumPostTable:
+    Type: 'AWS::DynamoDB::Table'
+    Properties:
+      TableName: "taskTable"
+      AttributeDefinitions:
+        - 
+          AttributeName: "taskId"
+          AttributeType: "S" 
+      KeySchema:
+        - 
+          AttributeName: "taskId"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5

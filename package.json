@@ -6,6 +6,7 @@
   "author": "Rodrigo Ruiz Baca <rodrigo.ruiz.baca@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.331.0"
+    "aws-sdk": "^2.331.0",
+    "uuid": "^3.3.2"
   }
 }
