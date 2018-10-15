@@ -1,0 +1,11 @@
+{
+  "name": "fargate-nodejs-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rodrigoruizbaca/fargate-nodejs-test.git",
+  "author": "Rodrigo Ruiz Baca <rodrigo.ruiz.baca@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.331.0"
+  }
+}
